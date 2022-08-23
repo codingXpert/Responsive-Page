@@ -1,11 +1,14 @@
 const express = require('express');
 const path = require('path');
-require('./db/conn')
+require('./db/conn');
+const hbs  = require('hbs');
 const app = express();
 const port =process.env.PORT || 8000;
 
 // setting the path
 const staticPath = path.join(__dirname , "../public");
+const templatePath = path.join(__dirname , "../templates/views");
+const partialsPath = path.join(__dirname , "../templates/partials");
 
 // middleware
 app.use('/css' , express.static(path.join(__dirname , "../node_modules/bootstrap/dist/css")));  //including bootstrap path
@@ -15,6 +18,10 @@ app.use(express.static(staticPath));
 
 // setting viwe engine
 app.set("view engine" , "hbs");
+app.set("views" , templatePath) // telling the express that now the views folder is moved inside the templalets folder(and templatePath is the path)
+
+//registering the partials
+hbs.registerPartial(partialsPath);
 
 // Routes
 app.get("/" , (req , res) => {
