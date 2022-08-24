@@ -1,18 +1,92 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    {{!-- linking the bootstrap --}}
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
- </head>
- <body>
+<!DOCTYPE html>
+<html lang="en">
 
-        {{>navbar}}
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  {{!-- linking the bootstrap --}}
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <script src = "../jq/jquery.js" type="text/javascript"></script>
-     <script src = "../js/bootstrap.js" type="text/javascript"></script>
- </body>
- </html>
+<body>
+
+  {{>navbar}}
+
+  {{!-- hero section starts --}}
+  <div class="container-fluid mt-5">
+    <div class="row">
+
+      <div class="col-md-10 col-12 mx-auto ">
+
+        <div class="row">
+
+          <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-center flex-column">
+
+            <h1>WE WILL HELP YOU TO</h1>
+            <h1>GROW YOUR BUSINESS</h1>
+            <P>We Are the Team Of <span class="bold-style">Professional Developer </span> </P>
+            <button class="btn-style btn-success bg-success">READ MORE</button>
+
+          </div>
+
+          {{!-- right side --}}
+          <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+
+<figure>
+  <img src="images/music.png" alt="hero section image">
+</figure>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  {{!-- hero section ends --}}
+
+
+{{!-- About Us section starts --}}
+  <div class="container-fluid mt-5">
+    <div class="row">
+
+      <div class="col-md-10 col-12 mx-auto ">
+        <h1 class = "text-"></h1>
+
+        <div class="row">
+
+          <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-center flex-column">
+
+            <h1>WE WILL HELP YOU TO</h1>
+            <h1>GROW YOUR BUSINESS</h1>
+            <P>We Are the Team Of <span class="bold-style">Professional Developer </span> </P>
+            <button class="btn-style btn-success bg-success">READ MORE</button>
+
+          </div>
+
+          {{!-- right side --}}
+          <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+
+<figure>
+  <img src="images/music.png" alt="hero section image">
+</figure>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  {{!-- About Us section ends --}}
+
+  <script src="../jq/jquery.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+
+</html>

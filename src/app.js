@@ -21,13 +21,16 @@ app.set("view engine" , "hbs");
 app.set("views" , templatePath) // telling the express that now the views folder is moved inside the templalets folder(and templatePath is the path)
 
 //registering the partials
-hbs.registerPartial(partialsPath);
+hbs.registerPartials(partialsPath);
 
 // Routes
 app.get("/" , (req , res) => {
     res.render("index");
 })
 
+app.get("/contact" , (req , res) => {
+    res.render("contact");
+})
 
 // listning to server
 app.listen(port , (err) => {

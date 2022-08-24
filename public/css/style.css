@@ -1,0 +1,53 @@
+#logo {
+  float: left;
+  display: initial;
+  font-weight: 600;
+  font-size: 36px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #fd5c63;
+  text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+  padding: 0;
+}
+
+.navbar-style {
+  background-color: #f8f9fa;
+  box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #525252;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fd5c63;
+}
+
+.hero-text h1{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-shadow: 5px 4px 11px rgba(0,0,0,0.26);
+    letter-spacing: 1px;
+    color: #2f2f2f;
+    text-transform: uppercase;
+}
+
+.hero-text h1:nth-child(2){
+    font-weight: bold;
+    color:#5222d0;
+}
+
+.hero-text p ,
+.our-services p,
+label{
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    color: #777676;
+    text-transform: capitalize;
+    margin-top: 1.2rem;
+    margin-bottom: 5rem;
+}
