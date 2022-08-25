@@ -27,27 +27,69 @@
   color: #fd5c63;
 }
 
-.hero-text h1{
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    text-shadow: 5px 4px 11px rgba(0,0,0,0.26);
-    letter-spacing: 1px;
-    color: #2f2f2f;
-    text-transform: uppercase;
+.hero-text h1 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+  letter-spacing: 1px;
+  color: #2f2f2f;
+  text-transform: uppercase;
 }
 
-.hero-text h1:nth-child(2){
-    font-weight: bold;
-    color:#5222d0;
+.hero-text h1:nth-child(2) {
+  font-weight: bold;
+  color: #5222d0;
 }
 
-.hero-text p ,
+.hero-text p,
 .our-services p,
-label{
-    font-size: 0.9rem;
-    letter-spacing: 0.2rem;
-    color: #777676;
-    text-transform: capitalize;
-    margin-top: 1.2rem;
-    margin-bottom: 5rem;
+label {
+  font-size: 0.9rem;
+  letter-spacing: 0.2rem;
+  color: #777676;
+  text-transform: capitalize;
+  margin-top: 1.2rem;
+  margin-bottom: 5rem;
 }
+
+.scontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 300px;
+  border: 5px solid green;
+}
+
+.box {
+  position: relative;
+  top: 40px;
+  height: 110px;
+  width: 300px;
+  border: 2px solid rgb(0, 4, 255);
+}
+
+.icons img {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  left: 113px;
+  bottom: 30px;
+}
+
+.settiings h4 {
+  position: relative;
+  left: 95px;
+  bottom: 30px;
+}
+
+.settiings p {
+  position: relative;
+  left: 20px;
+  bottom: 50px;
+}
+
+
+
+
+
