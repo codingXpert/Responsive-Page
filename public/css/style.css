@@ -1,3 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+*{
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+html{
+  font-size: 93%;
+  scroll-behavior: smooth;
+}
+
 #logo {
   float: left;
   display: initial;
@@ -89,6 +103,12 @@ label {
   bottom: 50px;
 }
 
+button{
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 5px;
+}
 
 
 
